@@ -18,6 +18,7 @@ Before going any further let's recall some useful **notation**:<br>
 * $T(x)$ or $X$ - $x =$ Residual life at age $x$. It takes values into the interval (0, $\omega$ - $x$)<br>
 * $F(x)$ or $P(X \le x) =$ Distribution fuction of the death's age<br>
 * $S(x) = P(X > x) = 1 - F(x) =$ Survival function (e.g. I survive at $x$ age)<br>
-* $G_{x}(t) = P(T(x) \le t) = P(X - x \le | X > x) = P(X \le x+t | X > x)$ = Distribution function of residual age
+* $G_{x}(t) = P(T(x) \le t) = P(X - x \le | X > x) = P(X \le x+t | X > x)$ = Distribution function of residual age<br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=F(x)&space;=&space;1/F" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F(x)&space;=&space;1/F" title="F(x) = 1/F" /></a>
 [Spain](https://joevalencia.github.io/Life-Actuarial-Stats/Spain.html)
 
