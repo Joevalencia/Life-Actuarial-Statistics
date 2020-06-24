@@ -7,4 +7,17 @@ Of course, there are a lot of fields in which this topic has evolved over the co
 ## Biometric model**
 The Basic Biometric model is a stochastic model defined around a random variable $X$ that we call the **age of death** of the individual. <br> Therefore, $X$ is a variable defined in the set of **positive real numbers**, although in the practical constructions it accepts the existence of an actuarial infinite or actuarial age denoting as $\omega$. The information referring to the age of death in census studies or samples of specific populations refers to the complete years that the deceased has lived, so it would be much more reasonable to treat $X$ as a discrete variable though. <br> Both approach are conciliables and they only conduct to slight divergencies indeed.<br>
 
+**Basic Hypotesis of Biometric Model**<br>
+**1.Homogenity** : Individuals form up a homogeneous group, that is, the statistical behavior of their age of death is identical.<br>
+**2.Independence** : The variables that describe the ages of death of the different individuals they are statistically independent. <br>
+**3.Stationarity** : The biometric properties of individuals do not depend on their date of birth, but only on their age. This hypothesis is accepted in practice for short periods of time.
+
+Before going any further let's recall some useful **notation**:<br> 
+* $X =$ The death's age of the induvidual<br> 
+* $x =$ Current age of the individual<br> 
+* $T(x)$ or $X$ - $x =$ Residual life at age $x$. It takes values into the interval (0, $\omega$ - $x$)<br>
+* $F(x)$ or $P(X \le x) =$ Distribution fuction of the death's age<br>
+* $S(x) = P(X > x) = 1 - F(x) =$ Survival function (e.g. I survive at $x$ age)<br>
+* $G_{x}(t) = P(T(x) \le t) = P(X - x \le | X > x) = P(X \le x+t | X > x)$ = Distribution function of residual age
 [Spain](https://joevalencia.github.io/Life-Actuarial-Stats/Spain.html)
+
